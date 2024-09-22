@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #3D7793;
+    color: white;
+    padding: 0 10px;
+}
+
+.logo{
+   
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.about ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+.about ul li a {
+    text-decoration: none;
+    color: white;
+
+}
