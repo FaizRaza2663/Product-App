@@ -23,8 +23,13 @@ const Card = ({ data }) => {
         </div>
         <h2 id='userName'>{name}</h2>
         <p id='profession'>{profession}</p>
-        <p id='description'>{description.slice(0,100)}...</p>
-        
+        <p id='description'>{description.slice(0, 100)}...</p>
+        <div className="icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
         <div className="btn-div"><button onClick={() => navigate(`/movies/${id}`)} id='veiw-btn'>View Profile</button></div>
       </div>
     </div>

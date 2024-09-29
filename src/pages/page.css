@@ -1,147 +1,15 @@
-/* .bgImage{
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    
-}
-.userImage{
-    height: 100vh;
-    width: 500px;
-    min-width: 45vw;
-    background-image: url('/public/assets/OtherImage/Frame\ 45.svg')
-    }
-
-.userImage img{
-    height: 600px;
-    width: 350px;
-    margin-top: 20%;
-    margin-left: 10%;
-    max-width: 80vh;
-    min-width: 40vw;
-    overflow: hidden;
-    }
-
-.userdetail{
-    height: 100vh;
-    width: 400px;
-    max-width: 45vw;
-    margin-left: 10%;
-    margin-top: 10%;
-    overflow: hidden;
-
-    
-}
-
-.dec{
-
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-
-}
-
-.pro{
-    
-font-family: Poppins;
-font-size: 18px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
-color: #D5B0CF;
-
-}
-
-.userdetail h1{
-
-font-family: Poppins;
-font-size: 32px;
-font-weight: 500;
-line-height: 40px;
-text-align: left;
-color: #111827;
-
-
-    
-}
-
-.users{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    
-}
-
-.Social-link{
-    display: flex;
-    gap: 20px;
-}
-
-.but1{
-    margin-top: 10%;
-    width: Fixed (212px)px;
-height: Hug (44px)px;
-top: 487px;
-left: 441px;
-gap: 8px;
-border-radius: 4px 0px 0px 0px;
-opacity: 0px;
-padding: 10px;
-color: white;
-background: #BB8DB7;
-
-}
-
-.user-detail{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.user-data{
-    max-width: 400px;
-    width: 100%;
-    text-align: center;
-    background-color: #ffff;
-    padding: 10px;
-    border-radius: 10px;
-}
-.user-data h1{
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-.user-data p{
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.603);
-    padding-bottom: 40px;
-}
-#desc{
-    font-size: medium;
-    color: rgba(0, 0, 0, 0.884);
-    line-height: 20px;
-    text-align: left;
-} */
-
-
-
 .cards-parrent {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
-  }
 
-.users{
+}
+
+.users {
     display: flex;
-}  
+}
 
-.userImage{
+.userImage {
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -156,9 +24,9 @@ background: #BB8DB7;
     border: 5px solid black;
 }
 
-.userdetail{
-    width: 50vw;
-    width: 50vw;
+.userdetail {
+    width: 45vw;
+    /* width: 50vw; */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -168,14 +36,57 @@ background: #BB8DB7;
 
 }
 
-.but1{
+.but1 {
     background-color: #3D7793;
     width: 180px;
     height: 50px;
     border-radius: 15px;
     border: none;
     color: white;
-    /* margin-top: auto;
-    margin-bottom: 5px; */
+    
     font-size: 20px;
 }
+
+.detailIcon{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.detailIcon i {
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .users{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .userImage img{
+        width: 50%;
+        height: 100px;
+    }
+    .userImage{
+        height: 200px;
+    }
+    .userdetail{
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .userImage img{
+        height: 200px;
+    }
+    .userdetail{
+        width: 40vw;
+    }
+  }
+  

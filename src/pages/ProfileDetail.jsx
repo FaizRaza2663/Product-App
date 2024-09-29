@@ -17,7 +17,7 @@ const ProfileDetail = () => {
 
   console.log(singleData)
 
-  const { description,profileImage,name,profession } = singleData
+  const { description, profileImage, name, profession } = singleData
   console.log("image", profileImage)
   return (
     // <div style={{backgroundImage:`url(${profileImage})`}} className='bgImage'>
@@ -37,6 +37,12 @@ const ProfileDetail = () => {
           <img src="/assets/OtherImage/LinkedIn svg.svg" alt="" />
           <img src="/assets/OtherImage/Twitter  svg.svg" alt="" />
 
+        </div>
+        <div className="detailIcon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
         </div>
         <button className='but1'>Buy a me Coffee</button>
       </div>
